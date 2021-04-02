@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FA8D0325FCCC6A0048480B /* Swift5___DSK___WaltzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D0225FCCC6A0048480B /* Swift5___DSK___WaltzApp.swift */; };
+		D3FA8D0525FCCC6A0048480B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D0425FCCC6A0048480B /* ContentView.swift */; };
+		D3FA8D0725FCCC6D0048480B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA8D0625FCCC6D0048480B /* Assets.xcassets */; };
+		D3FA8D0A25FCCC6D0048480B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA8D0925FCCC6D0048480B /* Preview Assets.xcassets */; };
+		D3FA8D1925FCD0090048480B /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D1825FCD0090048480B /* SongCard.swift */; };
+		D3FA8D1C25FCD07B0048480B /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D1B25FCD07B0048480B /* SongInfo.swift */; };
+		D3FA8D1F25FCD4CC0048480B /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D1E25FCD4CC0048480B /* ScaleButtonStyle.swift */; };
+		D3FA8D2225FCD63A0048480B /* WaltzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D2125FCD63A0048480B /* WaltzModel.swift */; };
+		D3FA8D2525FCD6E80048480B /* Waltz of the Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3FA8D2425FCD6E80048480B /* Waltz of the Flowers.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3FA8CFF25FCCC6A0048480B /* Swift5 - DSK - Waltz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift5 - DSK - Waltz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA8D0225FCCC6A0048480B /* Swift5___DSK___WaltzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift5___DSK___WaltzApp.swift"; sourceTree = "<group>"; };
+		D3FA8D0425FCCC6A0048480B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3FA8D0625FCCC6D0048480B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FA8D0925FCCC6D0048480B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3FA8D0B25FCCC6D0048480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA8D1825FCD0090048480B /* SongCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCard.swift; sourceTree = "<group>"; };
+		D3FA8D1B25FCD07B0048480B /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		D3FA8D1E25FCD4CC0048480B /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		D3FA8D2125FCD63A0048480B /* WaltzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaltzModel.swift; sourceTree = "<group>"; };
+		D3FA8D2425FCD6E80048480B /* Waltz of the Flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waltz of the Flowers.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FA8CFC25FCCC6A0048480B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FA8CF625FCCC6A0048480B = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D0125FCCC6A0048480B /* Swift5 - DSK - Waltz */,
+				D3FA8D0025FCCC6A0048480B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FA8D0025FCCC6A0048480B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8CFF25FCCC6A0048480B /* Swift5 - DSK - Waltz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FA8D0125FCCC6A0048480B /* Swift5 - DSK - Waltz */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D0225FCCC6A0048480B /* Swift5___DSK___WaltzApp.swift */,
+				D3FA8D1425FCCCA50048480B /* Models */,
+				D3FA8D1225FCCC9B0048480B /* Views */,
+				D3FA8D1625FCCCE20048480B /* Styles */,
+				D3FA8D1525FCCCCD0048480B /* Songs */,
+				D3FA8D0625FCCC6D0048480B /* Assets.xcassets */,
+				D3FA8D0B25FCCC6D0048480B /* Info.plist */,
+				D3FA8D0825FCCC6D0048480B /* Preview Content */,
+			);
+			path = "Swift5 - DSK - Waltz";
+			sourceTree = "<group>";
+		};
+		D3FA8D0825FCCC6D0048480B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D0925FCCC6D0048480B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3FA8D1225FCCC9B0048480B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D0425FCCC6A0048480B /* ContentView.swift */,
+				D3FA8D1825FCD0090048480B /* SongCard.swift */,
+				D3FA8D1B25FCD07B0048480B /* SongInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3FA8D1425FCCCA50048480B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D2125FCD63A0048480B /* WaltzModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3FA8D1525FCCCCD0048480B /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D2425FCD6E80048480B /* Waltz of the Flowers.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		D3FA8D1625FCCCE20048480B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D1E25FCD4CC0048480B /* ScaleButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FA8CFE25FCCC6A0048480B /* Swift5 - DSK - Waltz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA8D0E25FCCC6D0048480B /* Build configuration list for PBXNativeTarget "Swift5 - DSK - Waltz" */;
+			buildPhases = (
+				D3FA8CFB25FCCC6A0048480B /* Sources */,
+				D3FA8CFC25FCCC6A0048480B /* Frameworks */,
+				D3FA8CFD25FCCC6A0048480B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift5 - DSK - Waltz";
+			productName = "Swift5 - DSK - Waltz";
+			productReference = D3FA8CFF25FCCC6A0048480B /* Swift5 - DSK - Waltz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FA8CF725FCCC6A0048480B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3FA8CFE25FCCC6A0048480B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D3FA8CFA25FCCC6A0048480B /* Build configuration list for PBXProject "Swift5 - DSK - Waltz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FA8CF625FCCC6A0048480B;
+			productRefGroup = D3FA8D0025FCCC6A0048480B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FA8CFE25FCCC6A0048480B /* Swift5 - DSK - Waltz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FA8CFD25FCCC6A0048480B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA8D0A25FCCC6D0048480B /* Preview Assets.xcassets in Resources */,
+				D3FA8D2525FCD6E80048480B /* Waltz of the Flowers.mp3 in Resources */,
+				D3FA8D0725FCCC6D0048480B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FA8CFB25FCCC6A0048480B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA8D1C25FCD07B0048480B /* SongInfo.swift in Sources */,
+				D3FA8D1F25FCD4CC0048480B /* ScaleButtonStyle.swift in Sources */,
+				D3FA8D2225FCD63A0048480B /* WaltzModel.swift in Sources */,
+				D3FA8D1925FCD0090048480B /* SongCard.swift in Sources */,
+				D3FA8D0525FCCC6A0048480B /* ContentView.swift in Sources */,
+				D3FA8D0325FCCC6A0048480B /* Swift5___DSK___WaltzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3FA8D0C25FCCC6D0048480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3FA8D0D25FCCC6D0048480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FA8D0F25FCCC6D0048480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift5 - DSK - Waltz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift5 - DSK - Waltz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stromylks.Swift5---DSK---Waltz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3FA8D1025FCCC6D0048480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift5 - DSK - Waltz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift5 - DSK - Waltz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stromylks.Swift5---DSK---Waltz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FA8CFA25FCCC6A0048480B /* Build configuration list for PBXProject "Swift5 - DSK - Waltz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA8D0C25FCCC6D0048480B /* Debug */,
+				D3FA8D0D25FCCC6D0048480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FA8D0E25FCCC6D0048480B /* Build configuration list for PBXNativeTarget "Swift5 - DSK - Waltz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA8D0F25FCCC6D0048480B /* Debug */,
+				D3FA8D1025FCCC6D0048480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FA8CF725FCCC6A0048480B /* Project object */;
+}

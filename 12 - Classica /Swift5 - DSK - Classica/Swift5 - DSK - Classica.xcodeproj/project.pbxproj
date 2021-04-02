@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D4F9B925FFE7A80092A7E6 /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4F9B825FFE7A80092A7E6 /* SongCard.swift */; };
+		D3D4F9BD25FFE82F0092A7E6 /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4F9BC25FFE82F0092A7E6 /* SongInfo.swift */; };
+		D3D4F9C625FFE8870092A7E6 /* Waltz of the Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D4F9C225FFE8870092A7E6 /* Waltz of the Flowers.mp3 */; };
+		D3D4F9C725FFE8870092A7E6 /* Ride of the Valkyries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D4F9C325FFE8870092A7E6 /* Ride of the Valkyries.mp3 */; };
+		D3D4F9C825FFE8870092A7E6 /* 1812 Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D4F9C425FFE8870092A7E6 /* 1812 Overture.mp3 */; };
+		D3D4F9C925FFE8870092A7E6 /* 9th Symphony (Finale).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D4F9C525FFE8870092A7E6 /* 9th Symphony (Finale).mp3 */; };
+		D3D4F9CC25FFE8FC0092A7E6 /* ClassicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4F9CB25FFE8FC0092A7E6 /* ClassicaModel.swift */; };
+		D3D4F9D025FFF0A70092A7E6 /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4F9CF25FFF0A70092A7E6 /* ScaleButtonStyle.swift */; };
+		D3FA8D3625FFE57B0048480B /* Swift5___DSK___ClassicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D3525FFE57B0048480B /* Swift5___DSK___ClassicaApp.swift */; };
+		D3FA8D3825FFE57B0048480B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA8D3725FFE57B0048480B /* ContentView.swift */; };
+		D3FA8D3A25FFE57E0048480B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA8D3925FFE57E0048480B /* Assets.xcassets */; };
+		D3FA8D3D25FFE57E0048480B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA8D3C25FFE57E0048480B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3D4F9B825FFE7A80092A7E6 /* SongCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCard.swift; sourceTree = "<group>"; };
+		D3D4F9BC25FFE82F0092A7E6 /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		D3D4F9C225FFE8870092A7E6 /* Waltz of the Flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waltz of the Flowers.mp3"; sourceTree = "<group>"; };
+		D3D4F9C325FFE8870092A7E6 /* Ride of the Valkyries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ride of the Valkyries.mp3"; sourceTree = "<group>"; };
+		D3D4F9C425FFE8870092A7E6 /* 1812 Overture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1812 Overture.mp3"; sourceTree = "<group>"; };
+		D3D4F9C525FFE8870092A7E6 /* 9th Symphony (Finale).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9th Symphony (Finale).mp3"; sourceTree = "<group>"; };
+		D3D4F9CB25FFE8FC0092A7E6 /* ClassicaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicaModel.swift; sourceTree = "<group>"; };
+		D3D4F9CF25FFF0A70092A7E6 /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		D3FA8D3225FFE57B0048480B /* Swift5 - DSK - Classica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift5 - DSK - Classica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA8D3525FFE57B0048480B /* Swift5___DSK___ClassicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift5___DSK___ClassicaApp.swift"; sourceTree = "<group>"; };
+		D3FA8D3725FFE57B0048480B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3FA8D3925FFE57E0048480B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FA8D3C25FFE57E0048480B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3FA8D3E25FFE57E0048480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FA8D2F25FFE57B0048480B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D4F9B725FFE7880092A7E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D3725FFE57B0048480B /* ContentView.swift */,
+				D3D4F9B825FFE7A80092A7E6 /* SongCard.swift */,
+				D3D4F9BC25FFE82F0092A7E6 /* SongInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3D4F9BF25FFE83B0092A7E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4F9CB25FFE8FC0092A7E6 /* ClassicaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3D4F9C025FFE84D0092A7E6 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4F9CF25FFF0A70092A7E6 /* ScaleButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		D3D4F9C125FFE8610092A7E6 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4F9C525FFE8870092A7E6 /* 9th Symphony (Finale).mp3 */,
+				D3D4F9C425FFE8870092A7E6 /* 1812 Overture.mp3 */,
+				D3D4F9C325FFE8870092A7E6 /* Ride of the Valkyries.mp3 */,
+				D3D4F9C225FFE8870092A7E6 /* Waltz of the Flowers.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		D3FA8D2925FFE57B0048480B = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D3425FFE57B0048480B /* Swift5 - DSK - Classica */,
+				D3FA8D3325FFE57B0048480B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FA8D3325FFE57B0048480B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D3225FFE57B0048480B /* Swift5 - DSK - Classica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FA8D3425FFE57B0048480B /* Swift5 - DSK - Classica */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D3525FFE57B0048480B /* Swift5___DSK___ClassicaApp.swift */,
+				D3D4F9BF25FFE83B0092A7E6 /* Models */,
+				D3D4F9B725FFE7880092A7E6 /* Views */,
+				D3FA8D3925FFE57E0048480B /* Assets.xcassets */,
+				D3D4F9C025FFE84D0092A7E6 /* Styles */,
+				D3D4F9C125FFE8610092A7E6 /* Songs */,
+				D3FA8D3E25FFE57E0048480B /* Info.plist */,
+				D3FA8D3B25FFE57E0048480B /* Preview Content */,
+			);
+			path = "Swift5 - DSK - Classica";
+			sourceTree = "<group>";
+		};
+		D3FA8D3B25FFE57E0048480B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA8D3C25FFE57E0048480B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FA8D3125FFE57B0048480B /* Swift5 - DSK - Classica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA8D4125FFE57E0048480B /* Build configuration list for PBXNativeTarget "Swift5 - DSK - Classica" */;
+			buildPhases = (
+				D3FA8D2E25FFE57B0048480B /* Sources */,
+				D3FA8D2F25FFE57B0048480B /* Frameworks */,
+				D3FA8D3025FFE57B0048480B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift5 - DSK - Classica";
+			productName = "Swift5 - DSK - Classica";
+			productReference = D3FA8D3225FFE57B0048480B /* Swift5 - DSK - Classica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FA8D2A25FFE57B0048480B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3FA8D3125FFE57B0048480B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D3FA8D2D25FFE57B0048480B /* Build configuration list for PBXProject "Swift5 - DSK - Classica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FA8D2925FFE57B0048480B;
+			productRefGroup = D3FA8D3325FFE57B0048480B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FA8D3125FFE57B0048480B /* Swift5 - DSK - Classica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FA8D3025FFE57B0048480B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4F9C725FFE8870092A7E6 /* Ride of the Valkyries.mp3 in Resources */,
+				D3FA8D3D25FFE57E0048480B /* Preview Assets.xcassets in Resources */,
+				D3D4F9C625FFE8870092A7E6 /* Waltz of the Flowers.mp3 in Resources */,
+				D3D4F9C925FFE8870092A7E6 /* 9th Symphony (Finale).mp3 in Resources */,
+				D3D4F9C825FFE8870092A7E6 /* 1812 Overture.mp3 in Resources */,
+				D3FA8D3A25FFE57E0048480B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FA8D2E25FFE57B0048480B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4F9D025FFF0A70092A7E6 /* ScaleButtonStyle.swift in Sources */,
+				D3D4F9BD25FFE82F0092A7E6 /* SongInfo.swift in Sources */,
+				D3D4F9B925FFE7A80092A7E6 /* SongCard.swift in Sources */,
+				D3FA8D3825FFE57B0048480B /* ContentView.swift in Sources */,
+				D3FA8D3625FFE57B0048480B /* Swift5___DSK___ClassicaApp.swift in Sources */,
+				D3D4F9CC25FFE8FC0092A7E6 /* ClassicaModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3FA8D3F25FFE57E0048480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3FA8D4025FFE57E0048480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FA8D4225FFE57E0048480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift5 - DSK - Classica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift5 - DSK - Classica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stromylks.Swift5---DSK---Classica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3FA8D4325FFE57E0048480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift5 - DSK - Classica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift5 - DSK - Classica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stromylks.Swift5---DSK---Classica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FA8D2D25FFE57B0048480B /* Build configuration list for PBXProject "Swift5 - DSK - Classica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA8D3F25FFE57E0048480B /* Debug */,
+				D3FA8D4025FFE57E0048480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FA8D4125FFE57E0048480B /* Build configuration list for PBXNativeTarget "Swift5 - DSK - Classica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA8D4225FFE57E0048480B /* Debug */,
+				D3FA8D4325FFE57E0048480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FA8D2A25FFE57B0048480B /* Project object */;
+}
